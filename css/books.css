@@ -1,0 +1,146 @@
+/* 
+ */
+.search-bar-main {
+  display: inline-block;
+  width: 100%;
+}
+.search-bar {
+  height: 100%;
+  float: left;
+  width: 750px;
+  text-align: center;
+}
+
+.login-info {
+  width: 100px;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+.login-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+/* */
+#search-book {
+  width: 400px;
+  height: 30px;
+  border: 0.5px solid cadetblue;
+  border-radius: 3px;
+  color: lightgrey;
+  margin: 10px auto;
+  padding-left: 20px;
+}
+.btn-search {
+  height: 30px;
+  width: 110px;
+  margin-left: -3px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-size: 18px;
+}
+/* */
+.category-bar ul {
+  float: right;
+  margin-right: 10px;
+}
+.category-bar ul li {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+}
+.category-bar ul li a {
+  display: block;
+  color: grey;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.category-bar ul li a:hover {
+  border-radius: 3px;
+  color: cadetblue;
+  border-bottom: 5px solid cadetblue;
+}
+/* */
+.nav-logo {
+  text-align: center;
+}
+.nav-logo img {
+  width: 275px;
+  height: 85px;
+}
+/*  */
+.nav-menu {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+.nav-menu h1 {
+  color: #f1f5f9;
+  font-size: 18px;
+}
+.new-reading {
+  color: #fff;
+  font-size: 22px;
+  background-color: #056657;
+  display: block;
+  width: 310px;
+  height: 55px;
+  line-height: 55px;
+  margin-bottom: 0px;
+}
+.nav-menu-menu {
+  text-align: left;
+}
+.nav-menu-menu li a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  width: 300px;
+  line-height: 50px;
+  margin: 1px auto;
+  padding-left: 100px;
+  transition: all 0.5s;
+}
+.nav-menu-menu li a:hover {
+  background-color: #f1f5f9;
+  color: cadetblue;
+}
+/* 
+ */
+.recommended-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.recommended-bar .rec {
+  width: 500px;
+  height: 250px;
+  margin: 5px auto;
+  padding-top: 35px
+}
+/*  */
+.rec.box-1 .rec-book{
+    background-image: linear-gradient(to right, #f86245 , #f1a596);
+}
+/*  */
+.rec.box-2 .rec-book{
+    background-color: #fab337;
+}
+/* */
+.rec.box-3 .rec-book{
+    background-image: linear-gradient(to left, #09a890 , #55e6d0);
+}
+.rec-book{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 1px;
+    width:100%;
+    height: 215px;
+}

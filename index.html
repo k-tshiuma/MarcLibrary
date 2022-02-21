@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Books Store</title>
+    <link rel="stylesheet" href="css/grids.css">
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="stylesheet" href="css/cards.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="nav-sidebar">
+            <div class="nav-logo">
+                <img src="./assets/lib243.png" alt="">
+            </div>
+            <div class="nav-menu">
+                <p><label class="new-reading">Nouvelle Lecture</label></p>
+                <ul class="nav-menu-menu">
+                    <li><a href="#">Librarie</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Auteurs</a></li>
+                    <li><a href="#">Souscription</a></li>
+                    <li><a href="#">Balance</a></li>
+                    <li><a href="#">Qui sommes-nous?</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>                
+            </div>
+        </div>
+        <div class="content">
+            <div class="nav-top-bar">
+                <div class="search-bar-main">
+                    <div class="search-bar">
+                        <input type="search" name="search-book" id="search-book" placeholder="Rechercher Livres / Auteurs / ISBN ...">
+                        <input type="button" value="Rechercher" class="btn-search">
+                    </div>
+                    <div class="login-info"><img src="./assets/Senateur.png" alt="" id="login-img"></div>
+                </div>
+                <div class="recommended-bar">
+                    <div class="rec box-1">                       
+                        <div class="rec-book">   
+                            <div class="book">
+                                <span>
+                                    <img src="./assets/blue.jpg" alt="" class="rec-book-cover">
+                                </span>
+                            </div>        
+                            <div class="book-description">
+                                <p><label for="title" class="lbl-title">DICTIONNAIRE CIKAM-EGPTIEN</label></p>
+                                <p><label for="title" class="lbl-author">By Mubabinge Bilolo Wa Kaluka</label></p>
+                                <p><label for="title" class="lbl-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia,Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia voluptatibus a!</label></p>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="rec box-2">
+                        <div class="rec-book">   
+                            <div class="book">
+                                <span>
+                                    <img src="./assets/swift.png" alt="" class="rec-book-cover">
+                                </span>
+                            </div>        
+                            <div class="book-description">
+                                <p><label for="title" class="lbl-title">DICTIONNAIRE CIKAM-EGPTIEN</label></p>
+                                <p><label for="title" class="lbl-author">By Mubabinge Bilolo Wa Kaluka</label></p>
+                                <p><label for="title" class="lbl-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia,Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia voluptatibus a!</label></p>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="rec box-3">
+                        <div class="rec-book">   
+                            <div class="book">
+                                <span>
+                                    <img src="./assets/green.jpg" alt="" class="rec-book-cover">
+                                </span>
+                            </div>        
+                            <div class="book-description">
+                                <p><label for="title" class="lbl-title">DICTIONNAIRE CIKAM-EGPTIEN</label></p>
+                                <p><label for="title" class="lbl-author">By Mubabinge Bilolo Wa Kaluka</label></p>
+                                <p><label for="title" class="lbl-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia,Nostrum, dignissimos tenetur dolor sed suscipit, enim mollitia voluptatibus a!</label></p>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="category-bar">
+                    <ul class="categories">
+                        <li><a href="#"><h1>Business</h1></a></li>
+                        <li><a href="#"><h1>Histoire</h1></a></li>
+                        <li><a href="#"><h1>Economie</h1></a></li>
+                        <li><a href="#"><h1>Fiction</h1></a></li>
+                        <li><a href="#"><h1>Fantaisie</h1></a></li>
+                        <li><a href="#"><h1>Voyage</h1></a></li>
+                        <li><a href="#"><h1>Philosophie</h1></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="books-store" id="books-store"></div>
+        </div>
+    </div>
+    <script src="js/books.js"></script>
+</body>
+</html>

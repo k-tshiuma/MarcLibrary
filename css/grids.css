@@ -1,0 +1,51 @@
+/* 
+
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  font-family: "Island Moments", cursive;
+}
+body {
+  background-color: #f1f5f9;
+}
+.container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 5px;
+}
+.nav-sidebar {
+  background-color: #09a890;
+  height: 100vh;
+}
+.content {
+  display: grid;
+  grid-template-rows: 40% 60%;
+  gap: 10px;
+  height: 100vh;
+}
+/*  */
+.nav-top-bar {
+  display: grid;
+  grid-template-rows: 15% 70% 15%;
+}
+.search-bar-main {
+    border-bottom: 1px solid lightgrey;
+}
+.recommended-bar {
+  background-color: #fff;
+}
+.category-bar {
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+/*  
+*/
+.books-store {
+
+}
